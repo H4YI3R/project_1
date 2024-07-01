@@ -6,7 +6,7 @@
     border-top: 2px solid black;
     z-index: 9;
 }
-#header.header_warp {
+#header .nav {
     position: relative;
     width: 1100px;
 }

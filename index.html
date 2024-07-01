@@ -5,36 +5,37 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css" />
     </head>
     <body>
-        <div id="first_container">
-            <header>
-                <div><img src="imgs/logo.png" alt="STARBUCKS"></div>
-                    <ul>
-                        <li><a href="#">Sign In</a></li>
-                        <li><a href="#">My Starbucks</a></li>
-                        <li><a href="#">Customer Service & ideas</a></li>
-                        <li><a href="#">Find a Store</a></li>
-                        <li><img src="imgs/serch_icon.png"></li>
-                    </ul>
-            </header>
-        </div>
-        <div>
-            <section id="second_container">
-                <div class="top"></div>
-                    <div class="top1" style="position: absolute">
-                        <div style="position: relative; top: 100px; left: 100px;"><img src="imgs/top_logo.png"></img></div>
-                    </div>
-                    <div class="top2" style="position: absolute">
-                        <div style="position: relative; top: 100px; left: 980px;"><img src="imgs/top_logo_drink1.png"></img></div>
-                    </div>
-                    <div class="top3" style="position: absolute">
-                        <div style="position: relative; top: 100px; left: 780px;"><img src="imgs/top_logo_drink2.png"></img></div>
-                    </div>
-                    <div class="top4" style="position: absolute">
-                        <div style="position: relative; top: 100px; left: 1220px;"><img src="imgs/top_logo_drink3.png"></img></div>
-                    </div>
+        <div id="header">
+
+            <div class="header_warp ">
+                <div class="logo">
+                    <a href="http://127.0.0.1:5500/index.html#">
+                        <img src="imgs/logo.png" alt="STARBUCKS" />
+                    </a>
                 </div>
-            </section>
-            <fotter>2024 Starbucks Coffee Company. All Rights Reserved.</fotter>
+                <div class="nav">
+                    <ul class="nav_warp">
+                        <li class="list"><a class="support" href="#">Sign In</a></li>
+                        <li class="list"><a class="support" href="#">My Starbucks</a></li>
+                        <li class="list"><a class="support" href="#">Customer Service</a></li>
+                        <li class="list"><a class="support" href="#">Find a Store</a></li>
+                        <li class="search">
+                            <input id="search_box" type="text" placeholder="SEARCH" />
+                            <button id="search_icon"><img src="imgs/serch_icon.png" /></button>
+                        </li>
+                    </ul>
+                </div>
+                <div id="category">
+                    <ul class="category_warp">
+                        <li class=suv_support id="coffee">COFFEE</li>
+                        <li class=suv_support id="menu">MENU</li>
+                        <li class=suv_support id="store">STORE</li>
+                        <li class=suv_support id="responsibilty">RESPONSIBILITY</li>
+                        <li class=suv_support id="rewards">STARBUCKS REWARDS</li>
+                        <li class=suv_support id="sales">CORPORATE SALES</li>
+                        <li class=suv_support id="news">WHAT'S NEW</li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
-    </body>
-</html>

@@ -37,9 +37,6 @@ header>ul>li>a {
     font-weight: 800;
     padding-bottom: 5px;
 }
-header>ul>li:first-child>a {
-    border-bottom: 1px solid grey;
-}
 header>ul>li>a:hover {
     border-bottom: 1px solid gray;
 }

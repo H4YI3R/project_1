@@ -3,45 +3,43 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@4.0.1/reset.min.css" />
         <title>STARBUCKS COFFEE KOREA</title>
     </head>
     <body>
         <!-- Header -->
-        <div id="header">
-            <div class="header_warp">
-                <div class="logo">
-                    <a href="http://127.0.0.1:5500/index.html#">
-                        <img src="imgs/logo.png" alt="STARBUCKS" />
-                    </a>
-            <div class="nav">
-                <ul class="nav_warp">
-                    <li class="list"><a class="support" href="#">Sign In</a></li>
-                    <li class="list"><a class="support" href="#">My Starbucks</a></li>
-                    <li class="list"><a class="support" href="#">Customer Service</a></li>
-                    <li class="list"><a class="support" href="#">Find a Store</a></li>
-                    <li class="search">
-                        <input id="search_box" type="text" placeholder="SEARCH" />
-                        <button id="search_icon"><img src="imgs/serch_icon.png" alt="STARBUCKS"/></button>
-                    </li>
-                </ul>
+        <header>
+            <div id="header">
+                <div class="header_warp">
+                    <img class="header_logo" src="imgs/logo.png" alt="STARBUCKS">
+                    <nav class="header_nav">
+                        <ul class="header_list">
+                            <li class="list"><a class="support support1" href="#">Sign In</a></li>
+                            <li class="list"><a class="support support2" href="#">My Starbucks</a></li>
+                            <li class="list"><a class="support support3" href="#">Customer Service</a></li>
+                            <li class="list"><a class="support support4" href="#">Find a Store</a></li>
+                        </ul>
+                    </nav>
+                    <div class="search_box">
+                        <img src="imgs/serch_icon.png" alt="STARBUCKS">
                 </div>
             </div>
-<!--
-
             <div id="category">
-                <ul class="category_warp">
-                    <li class=suv_support id="coffee">COFFEE</li>
-                    <li class=suv_support id="menu">MENU</li>
-                    <li class=suv_support id="store">STORE</li>
-                    <li class=suv_support id="responsibilty">RESPONSIBILITY</li>
-                    <li class=suv_support id="rewards">STARBUCKS REWARDS</li>
-                    <li class=suv_support id="sales">CORPORATE SALES</li>
-                    <li class=suv_support id="news">WHAT'S NEW</li>
-                </ul>
-            </div>          
-
+                <nav class="category_nav">
+                    <ul class="category_warp">
+                        <li class=suv_support class="coffee">COFFEE</li>
+                        <li class=suv_support class="menu">MENU</li>
+                        <li class=suv_support class="store">STORE</li>
+                        <li class=suv_support class="responsibilty">RESPONSIBILITY</li>
+                        <li class=suv_support class="rewards">STARBUCKS REWARDS</li>
+                        <li class=suv_support class="sales">CORPORATE SALES</li>
+                        <li class=suv_support class="news">WHAT'S NEW</li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+<!--
             <div id="top_contents">
 
                 <div class="main_img">
@@ -95,6 +93,6 @@
 
         <div class>
         </div> -->
-    </div>
+        </div>
     </body>
 </html>

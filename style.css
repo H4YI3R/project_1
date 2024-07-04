@@ -4,13 +4,15 @@
     color: #333;
     font-family: normal Avenir, Arial, georgia;
 }
+
 /*-- header --*/
 #header {
     border-top: solid 2px black;
     background-color: #f6f5ee;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 1841px;
+    height: 121px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,13 +29,15 @@
 }
 #header .header_warp .search_box img {
     position: absolute;
-    top: 7px;
-    left: 7px;
+    top: 6px;
+    right: 7px;
+    width: 20px;
+    height: 21px;
 }
 #header .header_warp {
     border: solid 0px black;
-    height: 120px;
-    width: 1100px;
+    height: 66px;
+    width: 1286px;
 }
 #header .header_warp {
     height: 120px;
@@ -44,15 +48,15 @@
 #header .header_warp .header_logo {
     position: absolute;
     top: 20px;
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
 }
 #header .header_warp .header_nav {
     position: absolute;
     left: 552px;
     top: 21px;
 }
-#header .header_warp .header_nav .header_list {
+#header .header_warp .header_nav .header_list .list {
     list-style: none;
 }
 #header .header_warp .header_nav .header_list .list {
@@ -61,32 +65,54 @@
     font-size: 13px;
     text-align: center;
     height: 20px;
-    border: solid 0px black;
+    border: solid 1px black;
 }
-#header .header_warp .header_nav .header_list .list {
+#header .header_warp .header_nav .header_list .list1 {
+    width: 76px;
+}
+#header .header_warp .header_nav .header_list .list2 {
+    width: 107px;
+}
+#header .header_warp .header_nav .header_list .list3 {
+    width: 181px;
+}
+#header .header_warp .header_nav .header_list .list4 {
+    width: 181px;
+}
+#header .header_warp .header_nav .header_list .list .support {
     text-decoration: none;
 }
 #header .header_warp .header_nav .header_list .list .support:hover {
     text-decoration: underline;
 }
-#header .header_warp .header_nav .header_list .list .support:nth-child(1) {
+#header .header_warp .header_nav .header_list .list .support1 {
     width: 76px;
 }
-#header .header_warp .header_nav .header_list .list .support:nth-child(2) {
-    width: 106px;
+#header .header_warp .header_nav .header_list .list .support2 {
+    width: 107px;
 }
-#header .header_warp .header_nav .header_list .list .support:nth-child(3) {
+#header .header_warp .header_nav .header_list .list .support3 {
     width: 181px;
 }
-#header .header_warp .header_nav .header_list .list .support:nth-child(4) {
+#header .header_warp .header_nav .header_list .list .support4 {
     width: 97px;
 }
+#imgs .back_img {
+    position: absolute;
+    top: 122px;
+    padding: 0px;
+    border-top: solid 2px black;
+}
+#imgs .back_img {
+    position: relative;
+}
+
 /*-- header category --*/
 #header #category {
     position: absolute;
     top: 60px;
     width: 1100px;
-    height: 66px;
+    height: 60px;
     border: solid 0px black;
 }
 #header #category {
@@ -95,7 +121,7 @@
 }
 #header #category .category_nav .category_warp {
     list-style: none;
-    width: 737px;
+    width: 895px;
     display: flex;
     justify-content: space-between;
     border: solid 0px black;
@@ -109,26 +135,35 @@
     display: block;
     border: solid 0px black;
     text-transform: uppercase;
-    font-size: 13px;
+    color: #333333;
+    height: 49px;
     padding-top: 10px;
-    height: 66px;
+    font-size: 13px;
+    font-stretch: 100%;
 }
-#header #category .category_nav .category_warp  .main:hover {
+#header #category .category_nav .category_warp .main1 {
+    width: 89px;
+}
+#header #category .category_nav .category_warp .main2 {
+    width: 73px;
+}
+#header #category .category_nav .category_warp .main3 {
+    width: 79px;
+}
+#header #category .category_nav .category_warp .main4 {
+    width: 153px;
+}
+#header #category .category_nav .category_warp .main5 {
+    width: 200px;
+}
+#header #category .category_nav .category_warp .main6 {
+    width: 170px;
+}
+#header #category .category_nav .category_warp .main7 {
+    width: 131px;
+}
+#header #category .category_nav .category_warp .main:hover {
     text-decoration: underline;
     background-color: #2c2a29;
     color: #669900;
-}
-#imgs .back_img {
-    position: absolute;
-    top: 122px;
-    padding: 0px;
-    border-top: solid 2px black;
-}
-#imgs .back_img .back_main_logo {
-    position: relative;
-    width: 1840px;
-    height: 600px;
-}
-#imgs .back_img .back_main_logo {
-    
 }
